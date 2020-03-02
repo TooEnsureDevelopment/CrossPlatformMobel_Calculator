@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/techsavvy/Projects/CaculatorPro/CaculatorPro.Android/CaculatorPro.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/techsavvy/Projects/CaculatorPro/CaculatorPro.Android/CaculatorPro.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/techsavvy/Projects/CaculatorPro/CaculatorPro.Android/CaculatorPro.Android.csproj",
+        "projectName": "CaculatorPro.Android",
+        "projectPath": "/Users/techsavvy/Projects/CaculatorPro/CaculatorPro.Android/CaculatorPro.Android.csproj",
+        "packagesPath": "/Users/techsavvy/.nuget/packages/",
+        "outputPath": "/Users/techsavvy/Projects/CaculatorPro/CaculatorPro.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/techsavvy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.908675, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
